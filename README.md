@@ -6,6 +6,14 @@
 [![Downloads](https://pepy.tech/badge/pythongmaillib)](https://pepy.tech/project/pythongmaillib)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+# Или для других лицензий:
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
+[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
+
 **Простая и мощная библиотека для отправки email через Gmail и другие SMTP серверы**
 
 ## ✨ Особенности
