@@ -1,5 +1,7 @@
 # 📧 PythonGMailLib
 
+Технические работы
+
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![PyPI version](https://badge.fury.io/py/pythongmaillib.svg)](https://badge.fury.io/py/pythongmaillib)
