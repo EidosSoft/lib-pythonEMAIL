@@ -1,0 +1,60 @@
+# MANIFEST.in - включает дополнительные файлы в дистрибутив
+
+# Включаем README и лицензию
+include README.md
+include LICENSE
+
+# Включаем файлы конфигурации
+include pyproject.toml
+include requirements.txt
+include requirements-dev.txt
+
+# Включаем тесты
+recursive-include tests *.py
+recursive-include tests *.txt
+
+# Включаем примеры
+recursive-include examples *.py
+recursive-include examples *.txt
+recursive-include examples *.md
+
+# Включаем документацию
+recursive-include docs *.md
+recursive-include docs *.rst
+recursive-include docs *.html
+
+# Включаем файлы с типами
+recursive-include src *.pyi
+include src/python_gmail_lib/py.typed
+
+# Исключаем ненужные файлы
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude .git
+global-exclude .gitignore
+global-exclude .github
+global-exclude .vscode
+global-exclude .idea
+global-exclude *.log
+global-exclude .coverage
+global-exclude .pytest_cache
+global-exclude .mypy_cache
+global-exclude .tox
+global-exclude .eggs
+global-exclude *.egg-info
+
+# Исключаем виртуальное окружение
+prune .venv
+prune venv
+prune env
+prune ENV
+
+# Исключаем папки сборки
+prune build
+prune dist
+prune *.egg-info
+
+# Исключаем временные файлы
+prune __pycache__
